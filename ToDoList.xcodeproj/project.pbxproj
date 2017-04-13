@@ -13,6 +13,7 @@
 		650D1D791E9EF724008C91D7 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 650D1D771E9EF724008C91D7 /* ToDoList.xcdatamodeld */; };
 		650D1D7B1E9EF724008C91D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650D1D7A1E9EF724008C91D7 /* Assets.xcassets */; };
 		650D1D7E1E9EF724008C91D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650D1D7C1E9EF724008C91D7 /* LaunchScreen.storyboard */; };
+		650D1D861E9EFEB7008C91D7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650D1D851E9EFEB7008C91D7 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		650D1D7A1E9EF724008C91D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		650D1D7D1E9EF724008C91D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		650D1D7F1E9EF724008C91D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650D1D851E9EFEB7008C91D7 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				650D1D701E9EF724008C91D7 /* AppDelegate.swift */,
 				650D1D721E9EF724008C91D7 /* ViewController.swift */,
+				650D1D851E9EFEB7008C91D7 /* Task.swift */,
 				650D1D741E9EF724008C91D7 /* Main.storyboard */,
 				650D1D7A1E9EF724008C91D7 /* Assets.xcassets */,
 				650D1D7C1E9EF724008C91D7 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650D1D861E9EFEB7008C91D7 /* Task.swift in Sources */,
 				650D1D731E9EF724008C91D7 /* ViewController.swift in Sources */,
 				650D1D791E9EF724008C91D7 /* ToDoList.xcdatamodeld in Sources */,
 				650D1D711E9EF724008C91D7 /* AppDelegate.swift in Sources */,
